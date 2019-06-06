@@ -1,1 +1,26 @@
 // Navigation Styles here
+
+h1 {
+   font-size: 5rem;
+}
+
+.nav {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  align-items: space-between;
+
+    @media @mobile {
+      width: 90%;
+      align-items: space-evenly;
+    }
+
+  a {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: @font-color;
+    font-weight: semi-bold;
+  }
+}
